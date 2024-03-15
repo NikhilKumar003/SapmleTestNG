@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="personal loan">
+        <classes>
+            <class name="samplepack.day01"/>
+            <class name="samplepack.day04"/>
+        </classes>
+    </test>
+    <!--    <test name="homeloan">-->
+    <!--        <classes>-->
+    <!--            <class name="samplepack.day02">-->
+    <!--                <methods>-->
+    <!--                    <include name="homeloana"/>-->
+    <!--                    <include name="homeloanb"/>-->
+    <!--                    <include name="homeloanc"/>-->
+    <!--                </methods>-->
+    <!--            </class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+
+    <!--    <test name="car loan">-->
+    <!--        <classes>-->
+    <!--        <class name="samplepack.day03">-->
+    <!--            <methods>-->
+    <!--                <include name="carloana"/>-->
+    <!--                <include name="carloanb"/>-->
+    <!--                <include name="carloanc"/>-->
+    <!--            </methods>-->
+    <!--        </class>-->
+    <!--        </classes>-->
+
+    <!--    </test>-->
+</suite>
