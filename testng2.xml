@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="personal loan">
-
-        <packages>
-            <package name="samplepack"/>
-        </packages>
+    <test name="Regression Test">
+            <parameter name="url" value="qaclickacademy.com"/>
+<!--        <packages>-->
+<!--            <package name="samplepack"/>-->
+<!--        </packages>-->
+        <groups>
+            <run>
+                <exclude name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="samplepack.day01"/>
+            <class name="samplepack.day02"/>
+            <class name="samplepack.day03"/>
+            <class name="samplepack.day04"/>
+        </classes>
     </test>
 </suite>

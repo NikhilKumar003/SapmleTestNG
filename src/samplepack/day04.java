@@ -8,7 +8,7 @@ public class day04 {
         System.out.println("BEFORE TEST App loan for day04");
     }
 
-    @Test
+    @Test(groups = {"Smoke"})
     public void day0041() {
         System.out.println("TEST APP loan for 2nd day04");
     }
@@ -36,5 +36,12 @@ public class day04 {
     @AfterClass
     public void day0046() {
         System.out.println("AFTER CLASS APP loan for 2nd day04");
+    }
+    @Parameters({"url","api/username"})
+    @Test
+    public void day0047(String urlnme, String key) {
+        System.out.println("AFTER TEST App loan for 3rd day04 with parameter concept");
+        System.out.println(urlnme);
+        System.out.println(key);
     }
 }

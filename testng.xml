@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <listeners>
+        <listener class-name="samplepack.listeners"/>
+    </listeners>
     <test verbose="2" preserve-order="true" name="personal loan">
+
         <classes>
             <class name="samplepack.day01"/>
-            <class name="samplepack.day04"/>
+            <class name="samplepack.day03"/>
         </classes>
     </test>
     <!--    <test name="homeloan">-->

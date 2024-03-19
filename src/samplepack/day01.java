@@ -8,7 +8,7 @@ public class day01 {
     public void day0010(){
         System.out.println("BEFORE CLASS personal loan  day01");
     }
-    @Test
+    @Test(groups = {"Smoke"})
     public void day0011(){
         System.out.println("personal loan MAIN TEST day01");
     } @AfterClass

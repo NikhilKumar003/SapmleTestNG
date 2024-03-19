@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cca240f7-5cbe-4dec-8df3-58930ebf247a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SampleTestNG.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/samplepack/day01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/samplepack/day02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/samplepack/day03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/samplepack/day04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/PS2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/PS3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/samplepack/listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samplepack/day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/samplepack/day01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samplepack/day02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/samplepack/day02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samplepack/day03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/samplepack/day03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samplepack/day04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/samplepack/day04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Thinkpad/SampleTestNG",
     "onboarding.tips.debug.path": "C:/Users/Thinkpad/SampleTestNG/src/Main.java",
@@ -60,10 +63,20 @@
       <recent name="C:\Users\Thinkpad\SampleTestNG" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Thinkpad/SampleTestNG/testng.xml">
+  <component name="RunManager" selected="TestNG.Child">
     <configuration name="C:/Users/Thinkpad/SampleTestNG/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SampleTestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Thinkpad/SampleTestNG/testng3.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SampleTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng3.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -81,16 +94,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Child" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SampleTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="samplepack.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="samplepack" />
-      <option name="MAIN_CLASS_NAME" value="samplepack.day01" />
+      <option name="PACKAGE_NAME" value="inheritance" />
+      <option name="MAIN_CLASS_NAME" value="inheritance.Child" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -98,34 +111,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day03" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Child.master" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SampleTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="samplepack.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="samplepack" />
-      <option name="MAIN_CLASS_NAME" value="samplepack.day03" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day04" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SampleTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="samplepack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="samplepack" />
-      <option name="MAIN_CLASS_NAME" value="samplepack.day04" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="inheritance" />
+      <option name="MAIN_CLASS_NAME" value="inheritance.Child" />
+      <option name="METHOD_NAME" value="master" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Child" />
+        <item itemvalue="TestNG.Child.master" />
         <item itemvalue="TestNG.C:/Users/Thinkpad/SampleTestNG/testng.xml" />
-        <item itemvalue="TestNG.day04" />
-        <item itemvalue="TestNG.day01" />
+        <item itemvalue="TestNG.C:/Users/Thinkpad/SampleTestNG/testng3.xml" />
         <item itemvalue="TestNG.C:/Users/Thinkpad/SampleTestNG/testng2.xml" />
-        <item itemvalue="TestNG.day03" />
       </list>
     </recent_temporary>
   </component>

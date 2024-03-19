@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Regression Test">
+        <parameter name="url" value="qaclickacademy.com"/>
+        <classes>
+
+            <class name="samplepack.day03">
+
+            </class>
+        </classes>
+    </test>
+    <test name="sanity test">
+        <parameter name="url" value="apploanhere.com"/>
+        <parameter name="api/username" value="test1234"/>
+        <classes>
+            <class name="samplepack.day04"/>
+        </classes>
+    </test>
+    <test name="dataprovider">
+        <classes>
+            <class name="samplepack.day02"/>
+        </classes>
+    </test>
+</suite>
